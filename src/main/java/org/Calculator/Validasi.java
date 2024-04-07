@@ -1,8 +1,6 @@
 package org.Calculator;
 
 public class Validasi {
-    // Method untuk pengurangan
-
     public static boolean isNumeric(String str) {
         if (str == null) {
             return false;
