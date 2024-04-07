@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2501f68e-141c-45ab-8e95-7dfb4e175ade" name="Changes" comment="Edit Code">
+    <list default="true" id="2501f68e-141c-45ab-8e95-7dfb4e175ade" name="Changes" comment="Hapus comment divalidasi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Calculator/Validasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Calculator/Validasi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712485095472</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hapus comment divalidasi">
+      <created>1712485207854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712485207854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First-Commmit" />
     <MESSAGE value="Edit Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit Code" />
+    <MESSAGE value="Hapus comment divalidasi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hapus comment divalidasi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
