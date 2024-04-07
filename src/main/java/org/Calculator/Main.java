@@ -10,6 +10,7 @@ public class Main {
         while (inginLagi) {
             System.out.print("Masukkan operand 1: ");
             String operand1Str = scanner.nextLine();
+
             if (!Validasi.isNumeric(operand1Str)) {
                 System.out.println("Input operand 1 tidak valid!");
                 return;
@@ -52,8 +53,10 @@ public class Main {
             }
 
             System.out.println("\nHasil dari " + operand1 + " " + operator + " " + operand2 + " = " + hasil);
+
             // Tanyakan apakah ingin menggunakan kalkulator lagi
             System.out.print("\nIngin menggunakan kalkulator lagi? (y/n): ");
+
             String jawaban = scanner.nextLine();
             if (!jawaban.equalsIgnoreCase("y")) {
                 inginLagi = false;

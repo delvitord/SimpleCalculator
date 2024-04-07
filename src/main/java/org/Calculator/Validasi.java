@@ -16,6 +16,10 @@ public class Validasi {
     }
 
     public static boolean isValidOperator(String operator) {
-        return operator.equals("+") || operator.equals("-") || operator.equals("*") || operator.equals("/");
+        if (operator.equals("+") || operator.equals("-") || operator.equals("*") || operator.equals("/")){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

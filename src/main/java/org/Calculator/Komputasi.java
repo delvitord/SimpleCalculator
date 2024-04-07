@@ -3,15 +3,21 @@ package org.Calculator;
 public class Komputasi {
 
     public static double kurang(double operand1, double operand2) {
-        return operand1 - operand2;
+        double hasil = operand1 - operand2;
+
+        return hasil;
     }
     public static double tambah(double operand1, double operand2) {
-        return operand1 + operand2;
+        double hasil = operand1 + operand2;
+
+        return hasil;
     }
 
     // Method untuk perkalian
     public static double kali(double operand1, double operand2) {
-        return operand1 * operand2;
+        double hasil = operand1 * operand2;
+
+        return hasil;
     }
 
     // Method untuk pembagian
