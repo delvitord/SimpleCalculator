@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "gradlew test",
     "start": "java -cp build/classes/java/main org.Calculator.Main"
-
   },
   "repository": {
     "type": "git",

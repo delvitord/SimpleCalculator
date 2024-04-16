@@ -6,14 +6,36 @@ group 'org.Calculator'
 version '1.0-SNAPSHOT'
 
 repositories {
+    jcenter()
     mavenCentral()
+    maven {
+        url 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // TestNG dependency
+    testImplementation 'org.testng:testng:7.7.0'
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG() {
+        useDefaultListeners = true
+
+        // Konfigurasi untuk menghasilkan laporan HTML
+        options {
+            useDefaultListeners = false
+            listeners << 'org.testng.reporters.XMLReporter'
+        }
+
+        // Lokasi laporan XML yang dihasilkan
+        reports {
+            html.destination file("$buildDir/reports/tests")
+        }
+    }
+
+    // Menentukan event yang ingin ditampilkan dalam log
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
 }
