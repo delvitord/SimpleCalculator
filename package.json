@@ -1,0 +1,21 @@
+{
+  "name": "simplecalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "java -cp build/classes/java/main org.Calculator.Main"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvitord/SimpleCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delvitord/SimpleCalculator/issues"
+  },
+  "homepage": "https://github.com/delvitord/SimpleCalculator#readme"
+}
