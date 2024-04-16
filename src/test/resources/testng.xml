@@ -13,9 +13,9 @@
     </listeners>
 </suite>
 <suite name="Suite2" verbose="1">
-<test name="Test2">
-    <classes>
-        <class name="org.Calculator.Validasi"/>
+    <test name="Test2">
+        <classes>
+            <class name="org.Calculator.Validasi"/>
     </classes>
 </test>
 <listeners>
@@ -37,4 +37,17 @@
     <listener class-name="org.testng.reporters.TestHTMLReporter"/>
     <listener class-name="org.testng.reporters.JUnitXMLReporter"/>
 </listeners>
+</suite>
+<suite name="Suite3" verbose="1">
+    <test name="Test3">
+        <classes>
+            <class name="org.Calculator.Komputasi"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+        <listener class-name="org.testng.reporters.JUnitXMLReporter"/>
+    </listeners>
 </suite>
