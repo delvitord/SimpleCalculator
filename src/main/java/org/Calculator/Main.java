@@ -60,6 +60,7 @@ public class Main {
             String jawaban = scanner.nextLine();
             if (!jawaban.equalsIgnoreCase("y")) {
                 inginLagi = false;
+                break;
             }
         }
 
