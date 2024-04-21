@@ -20,15 +20,15 @@ Setiap modul/method yang terkandung dalam ketiga kelas utama tersebut dapat dili
 ### Modul Aplikasi
 Pengujian dilakukan permodul dengan daftar item pengujian berikut:
 
-| No. | Nama Kelas    | Nama Modul       |
-|-----|---------------|------------------|
-| 1   | ` MainApp`    | `Main`           |
-| 2   | `Validasi`    | `isNumeric`      |
-|     |               | `isValidOperator`|
-| 3   | `Perhitungan` | `tambah`         |
-|     |               | `kurang`         |
-|     |               | `kali`           |
-|     |               | `bagi`           |
+| No. | Nama Kelas    | Nama Modul       | Jumlah TC |
+|-----|---------------|------------------|-----------|
+| 1   | ` MainApp`    | `Main`           | 7    |
+| 2   | `Validasi`    | `isNumeric`      |10    |
+|     |               | `isValidOperator`|13    |
+| 3   | `Perhitungan` | `tambah`         | 12    |
+|     |               | `kurang`         |12    |
+|     |               | `kali`           |12    |
+|     |               | `bagi`           |12    |
 
 ## Prasyarat
 
@@ -110,16 +110,16 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 <b>
 ## Alat
 - ![](https://img.shields.io/badge/Gradle-Versi_7.4-%2383afd7)
-<br>Digunakan sebagai alat pembangunan untuk mengelola proyek Java dengan efisien. Kunjungi [situs web Gradle](https://gradle.org/) untuk informasi lebih lanjut.
-  
+  <br>Digunakan sebagai alat pembangunan untuk mengelola proyek Java dengan efisien. Kunjungi [situs web Gradle](https://gradle.org/) untuk informasi lebih lanjut.
 
-- ![](https://img.shields.io/badge/Java-Versi_16-%23ffcc80) 
-<br>Versi 16 atau yang lebih baru</span>. Bahasa pemrograman Java digunakan dalam proyek ini. Pastikan untuk menginstal versi Java yang sesuai. Kunjungi [situs web Java](https://www.java.com/) untuk informasi lebih lanjut.
+
+- ![](https://img.shields.io/badge/Java-Versi_16-%23ffcc80)
+  <br>Versi 16 atau yang lebih baru</span>. Bahasa pemrograman Java digunakan dalam proyek ini. Pastikan untuk menginstal versi Java yang sesuai. Kunjungi [situs web Java](https://www.java.com/) untuk informasi lebih lanjut.
 
 
 - ![](https://img.shields.io/badge/TestNG-Framework_Pengujian-%23a5d6a7)
-<br>Framework pengujian</span> yang digunakan untuk menulis dan menjalankan unit tes dalam proyek Java. Kunjungi [situs web TestNG](https://testng.org/) untuk informasi lebih lanjut.
+  <br>Framework pengujian</span> yang digunakan untuk menulis dan menjalankan unit tes dalam proyek Java. Kunjungi [situs web TestNG](https://testng.org/) untuk informasi lebih lanjut.
 
 
 - ![](https://img.shields.io/badge/Node.js-Platform_runtime_JavaScript-%23b39ddb)
-<br>Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
+  <br>Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
