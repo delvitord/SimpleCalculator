@@ -2,7 +2,8 @@
 
 ## Daftar Isi
 - [Deskripsi](#deskripsi)
-- [Penggunaan](#penggunaan)
+- [Prasyarat](#prasyarat)
+- [Cara Menjalankan](#carai-menjalankan)
 - [Pengujian dengan TestNG](#pengujian-dengan-testng)
 - [Pengembang](#pengembang)
 - [Alat](#alat)
