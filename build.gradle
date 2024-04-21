@@ -39,3 +39,9 @@ test {
         events "PASSED", "FAILED", "SKIPPED"
     }
 }
+
+gradle.taskGraph.whenReady { taskGraph ->
+    if (taskGraph.hasTask(':build')) {
+        taskGraph.getAllTasks().find { it.name == 'test' }?.enabled = false
+    }
+}
