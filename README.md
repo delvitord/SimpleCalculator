@@ -3,7 +3,7 @@
 ## Daftar Isi
 - [Deskripsi](#deskripsi)
 - [Prasyarat](#prasyarat)
-- [Cara Menjalankan](#carai-menjalankan)
+- [Cara Menjalankan](#cara-menjalankan)
 - [Pengujian dengan TestNG](#pengujian-dengan-testng)
 - [Pengembang](#pengembang)
 - [Alat](#alat)
@@ -97,6 +97,8 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 - Successful: <span style="color:#4CAF50; font-weight:bold;">75 (96%)</span>
 - Failures: <span style="color:#F44336; font-weight:bold;">3 (4%)</span>
 - Igroned: <span style="color:#FFC107; font-weight:bold;">0</span>
+
+[<img src="img.png" width="400" style="border-radius:50%">]
 
 ## Pengembang
 [<img src="https://github.com/delvitord.png" width="50" style="border-radius:50%">](https://github.com/delvitord)
