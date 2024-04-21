@@ -98,7 +98,7 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 - Failures: <span style="color:#F44336; font-weight:bold;">3 (4%)</span>
 - Igroned: <span style="color:#FFC107; font-weight:bold;">0</span>
 
-[<img src="img.png" width="400" style="border-radius:50%">]
+<img src="img.png" width="500" style="border-radius:50%">
 
 ## Pengembang
 [<img src="https://github.com/delvitord.png" width="50" style="border-radius:50%">](https://github.com/delvitord)
