@@ -6,6 +6,7 @@ build/
 !**/src/test/**/build/
 gradle.properties
 gradle/
+gradlew
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
