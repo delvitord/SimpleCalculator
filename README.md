@@ -21,15 +21,15 @@ Setiap modul/method yang terkandung dalam ketiga kelas utama tersebut dapat dili
 ### Modul Aplikasi
 Pengujian dilakukan permodul dengan daftar item pengujian berikut:
 
-| No. | Nama Kelas    | Nama Modul       |
-|-----|---------------|------------------|
-| 1   | ` MainApp`    | Main           |
-| 2   | Validasi    | isNumeric      |
-|     |               | isValidOperator|
-| 3   | Perhitungan | tambah         |
-|     |               | kurang         |
-|     |               | kali           |
-|     |               | bagi           |
+| No. | Nama Kelas   | Nama Modul       | Jumlah TC |
+|-----|--------------|------------------|-----------|
+| 1   | ` MainApp`   | Main           | 7         |
+| 2   | `Validasi `  | isNumeric      | 13        |
+|     |              | isValidOperator| 10        |
+| 3   | ` Komputasi` | tambah         | 12        |
+|     |              | kurang         | 12        |
+|     |              | kali           | 12        |
+|     |              | bagi           | 12        |
 
 ## Prasyarat
 
@@ -94,8 +94,8 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
 ## Pengujian dengan TestNG
 Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator beroperasi dengan benar. Hasil pengujian sebagai berikut:
 
-- Total test: <span style="color:#2196F3; font-weight:bold;">77</span>
-- Successful: <span style="color:#4CAF50; font-weight:bold;">74 (96%)</span>
+- Total test: <span style="color:#2196F3; font-weight:bold;">78</span>
+- Successful: <span style="color:#4CAF50; font-weight:bold;">75 (96%)</span>
 - Failures: <span style="color:#F44336; font-weight:bold;">3 (4%)</span>
 - Igroned: <span style="color:#FFC107; font-weight:bold;">0</span>
 
