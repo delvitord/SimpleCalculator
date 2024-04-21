@@ -2,7 +2,8 @@
 
 ## Daftar Isi
 - [Deskripsi](#deskripsi)
-- [Penggunaan](#penggunaan)
+- [Prasyarat](#prasyarat)
+- [Cara Menjalankan](#carai-menjalankan)
 - [Pengujian dengan TestNG](#pengujian-dengan-testng)
 - [Pengembang](#pengembang)
 - [Alat](#alat)
@@ -113,5 +114,7 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 - **Java**<br><span style="background-color:#ffcc80; color: black; font-weight: bold; padding: 3px 10px; border-radius: 5px;">Versi 16 atau yang lebih baru</span>. Bahasa pemrograman Java digunakan dalam proyek ini. Pastikan untuk menginstal versi Java yang sesuai. Kunjungi [situs web Java](https://www.java.com/) untuk informasi lebih lanjut.
 
 - **TestNG**<br><span style="background-color:#a5d6a7; color: black; font-weight: bold; padding: 3px 10px; border-radius: 5px;">Framework pengujian</span> yang digunakan untuk menulis dan menjalankan unit tes dalam proyek Java. Kunjungi [situs web TestNG](https://testng.org/) untuk informasi lebih lanjut.
+- **TestNG**<br>
+<span style="background-color:#a5d6a7; color:black; padding: 5px 10px; border-radius: 5px;">Framework pengujian</span> 
 
 - **Node.js**<br><span style="background-color:#b39ddb; color: black; font-weight: bold; padding: 3px 10px; border-radius: 5px;">Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
