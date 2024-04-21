@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2501f68e-141c-45ab-8e95-7dfb4e175ade" name="Changes" comment="Build test script Komputasi">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    <list default="true" id="2501f68e-141c-45ab-8e95-7dfb4e175ade" name="Changes" comment="Upload Readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713652284603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Upload Readme.md">
+      <created>1713693985160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713693985160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +205,8 @@
     <MESSAGE value="Edit isNumeric" />
     <MESSAGE value="script test komputasi" />
     <MESSAGE value="Build test script Komputasi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build test script Komputasi" />
+    <MESSAGE value="Upload Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
