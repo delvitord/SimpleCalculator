@@ -47,4 +47,9 @@ public class IsValidOperatorTest {
     public void testIsValidOperatorWithManyOperators() {
         Assert.assertFalse(Validasi.isValidOperator("+-*/"), "Test with many operators should return false");
     }
+
+    @Test
+    public void testIsValidOperatorWithEmptyString() {
+        Assert.assertFalse(Validasi.isValidOperator(""), "Test with empty string should return false");
+    }
 }
