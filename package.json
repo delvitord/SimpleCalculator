@@ -6,7 +6,8 @@
   "scripts": {
     "test": "gradlew test",
     "start": "java -cp build/classes/java/main org.Calculator.Main",
-    "build": "gradle build && gradle wrapper"
+    "build": "gradle build",
+    "wrapper": "gradle wrapper"
   },
   "repository": {
     "type": "git",
