@@ -7,6 +7,7 @@
 - [Pengujian dengan TestNG](#pengujian-dengan-testng)
 - [Pengembang](#pengembang)
 - [Alat](#alat)
+- [Generate Report](#generate-report)
 
 ## Deskripsi
 Aplikasi Kalkulator Java ini dibangun menggunakan Gradle sebagai alat pembangunan dan TestNG untuk pengujian otomatis. Proyek ini terdiri dari tiga kelas utama:
@@ -107,7 +108,7 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 <b>Delvito Rahim Derivansyah - 211524039 ([@delvitord](https://github.com/delvitord))
 <br> Mentari Ayu Alysia Sudrajat - 211524047 ([@mentarialysias](https://github.com/mentarialysias))
 <br> Yasmin Azizah Tuhfah - 211524064 ([@yasminazizahtuhfah](https://github.com/yasminazizahtuhfah))
-<b>
+</b>
 ## Alat
 - ![](https://img.shields.io/badge/Gradle-Versi_7.4-%2383afd7)
 <br>Digunakan sebagai alat pembangunan untuk mengelola proyek Java dengan efisien. Kunjungi [situs web Gradle](https://gradle.org/) untuk informasi lebih lanjut.
@@ -123,3 +124,6 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 
 - ![](https://img.shields.io/badge/Node.js-Platform_runtime_JavaScript-%23b39ddb)
 <br>Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
+
+## Generate Report
+Dengan perintah `npm test`, laporan hasil pengujian akan digenerate secara otomatis. Laporan ini terletak pada file berikut: `build/reports/tests/index.html`
