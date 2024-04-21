@@ -93,8 +93,8 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
 ## Pengujian dengan TestNG
 Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator beroperasi dengan benar. Hasil pengujian sebagai berikut:
 
-- Total test: <span style="color:#2196F3; font-weight:bold;">77</span>
-- Successful: <span style="color:#4CAF50; font-weight:bold;">74 (96%)</span>
+- Total test: <span style="color:#2196F3; font-weight:bold;">78</span>
+- Successful: <span style="color:#4CAF50; font-weight:bold;">75 (96%)</span>
 - Failures: <span style="color:#F44336; font-weight:bold;">3 (4%)</span>
 - Igroned: <span style="color:#FFC107; font-weight:bold;">0</span>
 
@@ -123,3 +123,6 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 
 - ![](https://img.shields.io/badge/Node.js-Platform_runtime_JavaScript-%23b39ddb)
   <br>Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
+
+  ## Generate Report
+Dengan perintah `npm test`, laporan hasil pengujian akan digenerate secara otomatis. Laporan ini terletak pada file berikut: `build/reports/tests/index.html`
