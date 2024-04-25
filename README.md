@@ -4,7 +4,8 @@
 - [Deskripsi](#deskripsi)
 - [Prasyarat](#prasyarat)
 - [Cara Menjalankan](#cara-menjalankan)
-- [Pengujian dengan TestNG](#pengujian-dengan-testng)
+- [Struktur Folder Project Setelah Program Dijalankan](#struktur-folder-project-setelah-program-dijalankan)
+- [Pengujian dan Generate Report dengan TestNG](#pengujian-dan-generate-report-dengan-testng)
 - [Pengembang](#pengembang)
 - [Alat](#alat)
 
@@ -89,7 +90,7 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
     ```
    Ini akan menjalankan skrip pengujian otomatis yang telah disiapkan untuk proyek.
 
-## Struktur Folder Project Setelah NPM Test
+## Struktur Folder Project Setelah Program Dijalankan
 Berikut struktur folder project setelah program dijalankan hingga step npm test:
 ```
 ├── .gradle
@@ -122,8 +123,6 @@ Berikut struktur folder project setelah program dijalankan hingga step npm test:
         └── resources
             └── testng.xml
 ```
-
-
 
 ## Pengujian dan Generate Report dengan TestNG
 Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator beroperasi dengan benar. Laporan hasil pengujian akan digenerate secara otomatis. Laporan ini terletak pada file berikut: `build/reports/tests/index.html`. Hasil pengujiannya sebagai berikut:
