@@ -89,9 +89,44 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
     ```
    Ini akan menjalankan skrip pengujian otomatis yang telah disiapkan untuk proyek.
 
+## Struktur Folder Project Setelah NPM Test
+Berikut struktur folder project setelah program dijalankan hingga step npm test:
+```
+├── .gradle
+├── build
+│   ├── ...
+│   ├── reports
+|   |   └── tests
+|   │   |    ├── ...
+|   │   |    ├── index.html
+|   |   │    └── testng-results.xml
+|   └── ...
+├── gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── org
+    │           └── Calculator
+    │               ├── Komputasi.java
+    │               ├── Main.java
+    │               └── Validasi.java
+    └── test
+        ├── java
+        │   ├── IsNumericTest.java
+        │   ├── IsValidOperatorTest.java
+        │   ├── KurangTest.java
+        │   ├── MainTest.java
+        │   ├── PembagianTest.java
+        │   ├── PerkalianTest.java
+        │   └── TambahTest.java
+        └── resources
+            └── testng.xml
+```
 
-## Pengujian dengan TestNG
-Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator beroperasi dengan benar. Hasil pengujian sebagai berikut:
+
+
+## Pengujian dan Generate Report dengan TestNG
+Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator beroperasi dengan benar. Laporan hasil pengujian akan digenerate secara otomatis. Laporan ini terletak pada file berikut: `build/reports/tests/index.html`. Hasil pengujiannya sebagai berikut:
 
 - Total test: <span style="color:#2196F3; font-weight:bold;">78</span>
 - Successful: <span style="color:#4CAF50; font-weight:bold;">75 (96%)</span>
@@ -125,6 +160,3 @@ Pengujian dilakukan menggunakan TestNG untuk memastikan fungsi kalkulator berope
 
 - ![](https://img.shields.io/badge/Node.js-Platform_runtime_JavaScript-%23b39ddb)
   <br>Platform runtime JavaScript</span> yang digunakan untuk menjalankan aplikasi JavaScript di sisi server. Pastikan Node.js telah diinstal untuk menjalankan aplikasi. Kunjungi [situs web Node.js](https://nodejs.org/) untuk informasi lebih lanjut.
-
-  ## Generate Report
-Dengan perintah `npm test`, laporan hasil pengujian akan digenerate secara otomatis. Laporan ini terletak pada file berikut: `build/reports/tests/index.html`
