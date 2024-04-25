@@ -14,7 +14,7 @@ Aplikasi Kalkulator Java ini dibangun menggunakan Gradle sebagai alat pembanguna
 
 1. **Main:** Berisi modul utama untuk menjalankan aplikasi.
 2. **Validasi:** Berisi modul untuk memvalidasi input, yaitu `isNumeric` dan `isValid`.
-3. **Perhitungan:** Berisi modul untuk operasi aritmatika dasar (`kurang`, `tambah`, `bagi`, dan `kali`).
+3. **Komputasi:** Berisi modul untuk operasi aritmatika dasar (`kurang`, `tambah`, `bagi`, dan `kali`).
 
 Setiap modul/method yang terkandung dalam ketiga kelas utama tersebut dapat dilihat pada tabel berikut:
 
@@ -26,7 +26,7 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
 | 1   | ` MainApp`    | `Main`           | 7    |
 | 2   | `Validasi`    | `isNumeric`      |10    |
 |     |               | `isValidOperator`|13    |
-| 3   | `Perhitungan` | `tambah`         | 12    |
+| 3   | `Komputasi` | `tambah`         | 12    |
 |     |               | `kurang`         |12    |
 |     |               | `kali`           |12    |
 |     |               | `bagi`           |12    |
@@ -59,6 +59,10 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
     ```
     gradle -v
     ```
+    
+5. (Opsional) Proyek ini menggunakan TestNG untuk melakukan pengujian otomatis, Anda dapat menginstalnya dengan cara:
+    - Untuk pengguna Eclipse, Anda bisa mendownload dan menginstal TestNG dari Eclipse Marketplace.
+    - IntelliJ IDEA biasanya sudah menyertakan dukungan untuk TestNG tanpa instalasi tambahan
 
 ## Cara Menjalankan
 
@@ -69,22 +73,18 @@ Pengujian dilakukan permodul dengan daftar item pengujian berikut:
     npm run build
     ```
 
-3. (Opsional) Proyek ini menggunakan TestNG untuk melakukan pengujian otomatis, Anda dapat menginstalnya dengan cara:
-    - Untuk pengguna Eclipse, Anda bisa mendownload dan menginstal TestNG dari Eclipse Marketplace.
-    - IntelliJ IDEA dan Visual Studio Code biasanya sudah menyertakan dukungan untuk TestNG tanpa instalasi tambahan.
-
-4. Generate file-file Gradle yang diperlukan dengan perintah:
+3. Generate file-file Gradle yang diperlukan dengan perintah:
     ```
     npm run wrapper
     ```
 
-5. Jalankan program untuk melakukan pengujian manual dengan perintah:
+4. Jalankan program untuk melakukan pengujian manual dengan perintah:
     ```
     npm start
     ```
    Ini akan menjalankan program dalam mode pengembangan atau sesuai dengan skrip start yang telah dikonfigurasi.
 
-6. Lakukan pengujian otomatis dengan perintah:
+5. Lakukan pengujian otomatis dengan perintah:
     ```
     npm test
     ```
